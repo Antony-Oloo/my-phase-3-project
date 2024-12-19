@@ -156,7 +156,7 @@ def main_menu():
         # Use the dictionary to handle actions
         action = actions.get(choice)
         if action:
-            action()  # Call the corresponding function
+            action()  
         else:
             print("Invalid option, please try again.")
 
